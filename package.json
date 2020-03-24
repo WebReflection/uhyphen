@@ -13,7 +13,13 @@
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "test": "nyc node test/index.js"
   },
-  "keywords": ["camel", "snake", "hyphen", "cases", "transformer"],
+  "keywords": [
+    "camel",
+    "snake",
+    "hyphen",
+    "cases",
+    "transformer"
+  ],
   "author": "Andrea Giammarchi",
   "license": "ISC",
   "devDependencies": {
@@ -34,5 +40,13 @@
     "import": "./esm/index.js",
     "default": "./cjs/index.js"
   },
-  "unpkg": "min.js"
+  "unpkg": "min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebReflection/uhyphen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WebReflection/uhyphen/issues"
+  },
+  "homepage": "https://github.com/WebReflection/uhyphen#readme"
 }
