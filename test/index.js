@@ -6,6 +6,7 @@ const assert = (source, dest) => {
 };
 
 assert('XMLHttpRequest', 'xml-http-request');
+assert('XMLHttpRequestXMLHttp', 'xml-http-request-xml-http');
 assert('Test', 'test');
 assert('camelCase', 'camel-case');
 assert('UInt8Array', 'u-int8-array');
